@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  padding: 0;
+  margin-right: 0 !important;
+}
+
+.btntxt {
+  font-weight: 600;
+}
+
+.card:hover {
+  border: 2px solid blue;
+  cursor: pointer;
+  box-shadow: 5px 5px #cfcdcdbd;
+  transition: 0.3s ease;
+}
+
+.card:hover .btn {
+  background: blue;
+  color: white;
+  transition: 0.3s ease;
+}
